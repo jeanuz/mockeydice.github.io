@@ -34,6 +34,7 @@ var config = {
 // Validate the configured house edge
 (function() {
   var errString;
+  
 
   if (config.house_edge <= 0.0) {
     errString = 'House edge must be > 0.0 (0%)';
